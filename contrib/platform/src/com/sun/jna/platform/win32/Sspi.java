@@ -39,7 +39,7 @@ public interface Sspi {
     /**
      * Maximum size in bytes of a security token.
      */
-    int MAX_TOKEN_SIZE = 12288;
+    int MAX_TOKEN_SIZE = 48000;
 
     // Flags for the fCredentialUse parameter of AcquireCredentialsHandle
 
